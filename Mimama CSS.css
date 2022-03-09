@@ -71,16 +71,17 @@ body{
   flex-direction: row;
   flex-wrap: unwrap;
   justify-content: start;
-  *align-items: center;
   width: 100%;
   overflow: auto;
+  background-color: rgba(1, 1, 122, 0.6);;
 }
 #gallery img {
-  width: 500px;
+  width: 400px;
   border-radius: 10px;
-  box-shadow: 2px 1px 1px grey;
-  margin: 3px;
-  padding: 0; 
+  box-shadow: 0.5px 0.5px 0.5px white;
+  margin: 6px;
+  padding: 15x;
+  border: 1px solid white;
 }
 footer div {
   background-color:rgb(1, 1, 122);
@@ -263,4 +264,23 @@ cite{
   font-size: 0.7rem;
   margin-top: -28px;
   line-height: 3
+}
+#utazasok {
+  width: 96.5%; 
+  height: 500px;
+  margin-bottom: 15px;
+  margin-top: 15px; 
+  margin-right: 40px;
+  display: inline-block;
+}
+#utazasok h1 {
+  display: block;
+  width: 100%;
+  color: rgba(1,1,122,1);
+  margin-left: 15px;
+}
+#utazasok section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
 }
