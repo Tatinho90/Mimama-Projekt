@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite'); 
+
+body{
+  width: 100%;
+  font-family: Georgia; 
+  background-color: rgba(10,10,122,0.0);
+  box-sizing: border-box; 
+}
+#menu {
+  height: 50px;
+    width: 100%;
+    background-color: rgb(1, 1, 122);
+  position: fixed;
+  top: 0;
+  margin-left:-8px;
+  z-index: 1;
+  }
+
+#title{
+  display: inline-block;
+   margin-top: 55px; 
+  border: 2px solid black;
+  border-radius: 22px;
+  box-shadow: 4px 1px 6px 1px rgba(1, 1, 122, 0.5);
+     width: 700px;
+    height: 450px;  
+  position: relative; 
+}
+#title img{
+  position: absolute;
+  top:0;
+  bottom: 0;
+   width: 700px;
+    height: 450px;  
+  border-radius: 22px;
+  opacity: 0.5;
+}
+#title h1{
+  opacity: unset;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left:170px;
+  color: black;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-shadow: 1.5px 1.5px white;
+}
+#img-div {
+  float: right;
+  max-width: 100%;
+    display:inline-block;
+    margin: auto;
+  margin-top: 55px; 
+  *border: 5px solid black;
+    margin-right: 40px;
+}
+#image {
+  object-fit: cover; 
+  object-position: top; 
+  width: 500px;
+    height: 450px;  
+   border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 4px 1px 6px 1px rgba(1, 1, 122, 0.5);
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: unwrap;
+  justify-content: start;
+  *align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+#gallery img {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 1px grey;
+  margin: 3px;
+  padding: 0; 
+}
+footer div {
+  background-color:rgb(1, 1, 122);
+  height: 45px;
+  width: 100%;
+  margin-top: 15px;
+}
+footer p {
+  color: white;
+  padding-top: 15px;
+  padding-left: 9px;;
+  font-size: 11px;
+  text-decoration: none;  
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+} 
+.container {
+     border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 4px 1px 6px 1px rgba(1, 1, 122, 0.5);
+}
+
+.right {
+  float:right;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+.alapjobb {
+  width: 500px;
+}
+#alapadatok {
+  height: 420px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+#alapadatok h1{
+  color:black;
+    text-align: left;
+  padding-left: 43px;
+  font-size: 24px;
+  text-decoraton: underline;
+  display: block;
+  margin-bottom: 12px;
+  margin-left: -30px;
+  text-shadow: 0.1px -0.1px 0.5px blue
+}
+.blue {
+  color:rgba(1, 1, 122, 1);
+  font-size: 16px;
+  font-weight: bold;
+}
+.left {
+  float:left;
+  margin-top: 15px;
+}
+.alapbal {
+ width: 700px; 
+}
+#libikoka {
+  height: 420px; 
+  overflow: hidden;
+}
+#libikoka img{
+ margin: -130px -260px;
+}
+#alapadatok fieldset {
+  border: none;
+  border-bottom: 0.5px solid rgba(1, 1, 122, 1);
+  margin-right: 100px;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+}
+#menu a{
+  text-decoration: none; 
+  color: white;
+  padding: 5px 12px;
+  margin: 10px 10px;
+  font-size: 19px;
+  font-weight: 600;
+}
+#logo {
+  height: 49px; 
+  border-bottom: 1px solid rgba(1, 1, 122, 1);
+}
+#menu a:hover{
+  background-color: white;
+    color: rgba(1, 1, 122, 1);
+}
+.keskenybal {
+  margin-top: 40px;
+  width: 200px;
+  float: left;
+}
+.vastagjobb {
+  width: 51%;
+}
+#szollo {
+  height: 500px;
+  margin-top: -145px;
+  margin-left: -75px;
+}
+#szollohegy-kep {
+  height: 300px;
+  overflow: hidden
+}
+#idezetek {
+  width: 45%;
+  float: left;
+    margin-top: 15px;
+}
+#idezetek .kisidezetek {
+  width: 95%;
+   margin-bottom: 10px;
+  height: 90px;
+  display: flex;
+flex-direction: column;
+ align-items: center;
+ justify-content: center;
+  font-size: 1.2rem;
+}
+#idezetek p, cite {
+  font-family: Special Elite, cursive;
+  max-width: 45%;
+  line-height: 1.25;
+    position: relative;
+}
+#idezetek p:before, #idezetek p:after {
+  position: absolute;
+  font-size: 4rem;
+}
+
+#idezet1:before {
+  content: '“'; 
+  left: -3rem;
+  top: -1rem;
+  color: rgba(1, 1, 122, 0.8);
+}
+#idezet2:before {
+  content: '“'; 
+  left: -3rem;
+  top: -1rem;
+  color: white;
+}
+ #idezet3:before {
+  content: '“'; 
+  left: -3rem;
+  top: -1rem;
+  color: rgba(1, 1, 122, 0.8);
+}
+#idezet1:after {
+  content: '”';
+  right: 5rem;
+  top: 1.5rem;
+  color: rgba(1, 1, 122, 0.8);
+}
+#idezet2:after  {
+  content: '”';
+  right: -1.5rem;
+  top: 1.5rem;
+  color: white;
+}
+#idezet3:after  {
+  content: '”';
+  right: -1.5rem;
+  top: 1.5rem;
+  color: rgba(1, 1, 122, 0.8);
+}
+#idezet22 {
+  background-color: rgba(1, 1, 122, 0.85);
+  color: white;
+}
+
+cite{
+  font-size: 0.7rem;
+  margin-top: -28px;
+  line-height: 3
+}
